@@ -1,0 +1,70 @@
+.hero {
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  padding: 1rem; /* Spacious padding */
+}
+
+.navbar-brand {
+  font-weight: bold; /* Emphasize brand */
+}
+
+.nav-link.active {
+  color: #000;
+  font-weight: bold;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.tab-content {
+  background-color: #e9ecef; /* Light gray */
+}
+
+.category-card {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  border-radius: 8px;
+  transition: box-shadow 0.2s ease;
+  overflow: hidden; /* Keep images inside the container */
+}
+
+.category-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Consistent aspect ratio */
+  object-fit: cover; /* Crop image */
+}
+
+.category-card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.product-card {
+  height: 100%;
+  overflow: hidden; /* Prevent overflow */
+}
+
+.product-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3; /* Adjust as needed */
+  object-fit: cover;
+}
+
+.product-actions {
+  display: flex;
+  gap: 0.5rem; /* Space between actions */
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #343a40;
+  color: #f8f9fa;
+  padding: 20px;
+}
